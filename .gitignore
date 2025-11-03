@@ -3,7 +3,10 @@
 #####################################################
 
 # Ignore raw telemetry data
-data/*.csv
+data/raw/*.csv
+
+# Allow processed data
+!data/processed/*.csv
 
 # Ignore notebook checkpoints
 *ipynb_checkpoints

@@ -4,6 +4,7 @@
 
 # Ignore raw telemetry data
 data/raw/*.csv
+data/raw/*.srt
 
 # Allow processed data
 !data/processed/*.csv
